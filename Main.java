@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 import models.Course;
 import models.Person;
+import models.Student;
 
 public class Main {
 
@@ -14,13 +15,22 @@ public class Main {
     // Course obj = new Course(nameOfCourse, courseCode);
     // System.out.println("Course is :" + obj.toString());
 
-    System.out.print("Enter the name of the person: ");
+    // System.out.print("Enter the name of the person: ");
+    // String nameOfPerson = sc.nextLine();
+    // System.out.print("Enter the address of the person: ");
+    // String addressOfPerson = sc.nextLine();
+    // System.out.print("Enter the age of the person: ");
+    // int ageOfPerson = sc.nextInt();
+
+    // Person person1 = new Person(nameOfPerson, ageOfPerson, addressOfPerson);
+    // System.out.println("person is :" + person1.toString());
+
+
+    System.out.print("Enter the name : ");
     String nameOfPerson = sc.nextLine();
-
-    System.out.print("Enter the address of the person: ");
+    System.out.print("Enter the address : ");
     String addressOfPerson = sc.nextLine();
-
-    System.out.print("Enter the age of the person: ");
+    System.out.print("Enter the age : ");
     int ageOfPerson = sc.nextInt();
 
     Person person1 = new Person(nameOfPerson, ageOfPerson, addressOfPerson);

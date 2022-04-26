@@ -5,16 +5,15 @@ public class Course {
     private String courseCode;
 
     public Course() {
-        
+        //
     }
-
-    // Creating constructor
+    //Constructor
     public Course(String nameOfCourse, String courseCode) {
         this.nameOfCourse = nameOfCourse;
         this.courseCode = courseCode;
     }
 
-    // Getter
+    //Getter
     public String getNameOfCourse() {
         return this.nameOfCourse;
     }
@@ -23,7 +22,7 @@ public class Course {
         return this.courseCode;
     }
 
-    // Setter
+    //Setter
     public void setNameOfCourse(String nameOfCourse) {
         this.nameOfCourse = nameOfCourse;
     }

@@ -1,12 +1,12 @@
 package models;
 
 public class Person {
-    private String name;
-    private int age;
-    private String address;
+    protected String name;
+    protected int age;
+    protected String address;
 
     public Person() {
-
+        //
     }
     //Constructor
     public Person(String name, int age, String address) {
